@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -180,17 +178,16 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
         import { getFirestore, collection, doc, setDoc, increment, onSnapshot } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
 
-        // TODO: REPLACE THIS OBJECT WITH YOUR FIREBASE CONFIG
         const firebaseConfig = {
-  apiKey: "AIzaSyCKlfwQgW0VHHYLXKjHa4NxHqmvvvXdbeU",
-  authDomain: "crrt-wordcloudv0.firebaseapp.com",
-  databaseURL: "https://crrt-wordcloudv0-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "crrt-wordcloudv0",
-  storageBucket: "crrt-wordcloudv0.firebasestorage.app",
-  messagingSenderId: "36164467422",
-  appId: "1:36164467422:web:0b0f4153ba93a96cf7a04f",
-  measurementId: "G-W21J2R1D8T"
-};
+          apiKey: "AIzaSyCKlfwQgW0VHHYLXKjHa4NxHqmvvvXdbeU",
+          authDomain: "crrt-wordcloudv0.firebaseapp.com",
+          databaseURL: "https://crrt-wordcloudv0-default-rtdb.asia-southeast1.firebasedatabase.app",
+          projectId: "crrt-wordcloudv0",
+          storageBucket: "crrt-wordcloudv0.firebasestorage.app",
+          messagingSenderId: "36164467422",
+          appId: "1:36164467422:web:0b0f4153ba93a96cf7a04f",
+          measurementId: "G-W21J2R1D8T"
+        };
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
